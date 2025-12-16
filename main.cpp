@@ -2,6 +2,29 @@
 #include "Specification.h"
 using namespace std;
 
+// fns prototypes
+
+user* login(user* head);
+
+// main fn
+
+int main()
+{   
+    // copilot wrote this part
+    
+    user* usersHead = nullptr;
+    // Code to initialize usersHead with some users would go here
+
+    user* loggedInUser = login(usersHead);
+    if (loggedInUser != nullptr)
+    {
+        cout << "Welcome, " << loggedInUser->getUserName() << "!" << endl;
+        // Further actions based on user type can be implemented here
+    }
+
+    return 0;
+}
+
 user* login(user* head)
 {
     string uname, pass;
