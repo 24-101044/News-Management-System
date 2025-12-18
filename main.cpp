@@ -2,14 +2,13 @@
 #include "Specification.h"
 using namespace std;
 
-// fns prototypes
-
 user* login(user* head);
-
-// main fn
 
 int main()
 {   
+    most_recent allNews;
+
+
     // copilot wrote this part , delete so we don't get fucked
     
     user* usersHead = nullptr;
