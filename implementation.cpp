@@ -279,7 +279,7 @@ void ratingOrder ::enqueue(article* toAdd){
 article ratingOrder ::dequeue(){
     if (isEmpty())
     {
-        return;
+        return article();
     }
     article* toDelete = head;
     head = head ->next;
