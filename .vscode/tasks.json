@@ -2,8 +2,8 @@
   "version": "2.0.0",
   "tasks": [
     {
-      "type": "cppbuild",
-      "label": "Build News Management System",
+      "label": "Build NewsSystem",
+      "type": "shell",
       "command": "C:\\msys64\\ucrt64\\bin\\g++.exe",
       "args": [
         "-fdiagnostics-color=always",
@@ -13,14 +13,11 @@
         "-o",
         "NewsSystem.exe"
       ],
-      "options": {
-        "cwd": "${workspaceFolder}"
-      },
-      "problemMatcher": ["$gcc"],
       "group": {
         "kind": "build",
         "isDefault": true
-      }
+      },
+      "problemMatcher": ["$gcc"]
     }
   ]
 }
