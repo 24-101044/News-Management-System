@@ -1,0 +1,6 @@
+NewsSystem.exe
+*.o
+*.obj
+*.exe~
+*.log
+.vscode/
